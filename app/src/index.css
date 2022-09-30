@@ -1,0 +1,32 @@
+#app {
+  padding: 20px;
+}
+.file-item {
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 1px solid transparent;
+  padding: 10px;
+}
+.file-item:hover {
+  border-color: red;
+
+}
+.file-item span {
+  margin-top: 20px;
+  font-size: 17px;
+}
+.main {
+  width: unset !important;
+  padding: 50px;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+.header .n-alert  {
+  width: 400px;
+}
